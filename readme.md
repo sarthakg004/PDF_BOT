@@ -29,7 +29,7 @@ The application follows these steps to provide responses to your questions:
    pip install -r requirements.txt
    ```
 
-2. Obtain an API key from OpenAI and add it to the `.env` file in the project directory.
+2. Obtain an API key from HuggingFace and add it to the `.env` file in the project directory.
 ```commandline
 'HUGGINGFACEHUB_API_TOKEN' = TOKEN
 ```
@@ -41,7 +41,7 @@ The application follows these steps to provide responses to your questions:
 
 2. Run the `main.py` file using the Streamlit CLI. Execute the following command:
    ```
-   streamlit run app.py
+   streamlit run webpage.py
    ```
 
 3. The application will launch in your default web browser, displaying the user interface.
